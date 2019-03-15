@@ -1,0 +1,16 @@
+{
+  "name": "@remy/merge",
+  "version": "1.0.1",
+  "description": "Merge - like most tools, except also supports arrays",
+  "main": "merge.js",
+  "scripts": {
+    "test": "node __tests__/*.test.js"
+  },
+  "files": [
+    "clone.js",
+    "merge.js"
+  ],
+  "keywords": [],
+  "author": "Remy Sharp (https://remysharp.com)",
+  "license": "MIT"
+}
