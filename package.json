@@ -1,6 +1,6 @@
 {
   "name": "@remy/merge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Merge - like most tools, except also supports arrays",
   "main": "merge.js",
   "scripts": {
@@ -12,5 +12,13 @@
   ],
   "keywords": [],
   "author": "Remy Sharp (https://remysharp.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remy/merge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remy/merge/issues"
+  },
+  "homepage": "https://github.com/remy/merge#readme"
 }

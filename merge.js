@@ -10,12 +10,9 @@ function typesMatch(a, b) {
  * A deep merge of the source based on the target.
  * @param  {Object} source   [description]
  * @param  {Object} target   [description]
- * @return {Object}          [description]
  */
-function merge(source, target, result) {
-  if (result === undefined) {
-    result = clone(source);
-  }
+function merge(source, target) {
+  var result = clone(source);
 
   // merge missing values from the target to the source
   Object.getOwnPropertyNames(target).forEach(function(key) {
